@@ -1,0 +1,277 @@
+/* * {
+    margin: 0px;
+    padding: 0px;
+} */
+
+.__payment-view {
+    --main--color :rgba(49,50,88,255);
+    font-size: 15px;
+}
+
+.row
+{
+    --bs-gutter-x: 0rem !important;
+}
+
+.header.payment
+{
+    position: fixed;
+    width: 100%;
+    top: 0;
+}
+
+.full-content
+{
+    padding: 10px 0;
+    background-color: #e1f5ff;
+}
+
+.full-content.payment
+{
+    margin-top: 50px;
+}
+
+.header-block
+{
+    color: white;
+    background-color: var(--main--color);
+    height: 50px;
+}
+
+.back-btn
+{
+    display: flex;
+    height: 50px;
+    align-items: center;
+    justify-content: center;
+}
+
+.back-btn:hover
+{
+    background-color: cornflowerblue;
+    cursor: pointer;
+}
+
+.header-term
+{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    font-size: 30px;
+}
+
+.info-header
+{
+    height: 30px;
+    background-color: cornflowerblue;
+    font-size: 20px;
+    line-height: 30px;
+    padding-left: 2.5%;
+    color: white;
+}
+
+.info-body
+{
+    height: 100px;
+    background-color: #abe1fa;
+}
+
+.info-name_mobile
+{
+    padding-left: 2.5%;
+    margin: auto;
+}
+
+.info-name
+{
+    font-size: 20px;
+}
+
+.info-address
+{
+    padding-top: 26px;
+}
+
+.info-change
+{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.change_info-btn
+{
+    width: 70%;
+    min-height: 30px;
+    background-color: white;
+    text-align: center;
+    line-height: 30px;
+    color: cornflowerblue;
+    font-weight: 600;
+    border-radius: 15px;
+}
+
+.change_info-btn:hover
+{
+    background-color: whitesmoke;
+    cursor: pointer;
+}
+
+.product-list
+{
+    /* height: 200px; */
+    background-color: white;
+    margin: 10px 0;
+    padding: 10px 10px;
+}
+
+.list-header
+{
+    padding-bottom: 20px;
+}
+
+.show-product
+{
+    display: flex;
+    flex-direction: column;
+}
+
+.product 
+{
+    border-color: black;
+    border-style: solid;
+    border-width: 0px;
+    border-top-width: 1px;
+    height: 80px;
+    align-items: center;
+}
+
+.product-count
+{
+    text-align: center;
+}
+
+.product-total
+{
+    text-align: right;
+    padding-right: 10px;
+}
+
+.product-img
+{
+    display: none;
+}
+
+.__box-img
+{
+    width: 50px;
+    height: 50px;
+}
+
+.total
+{
+    height: 50px;
+    background-color: #3fb9eb;
+    justify-content: end;
+}
+
+.total-blank1
+{
+    background-color: white;
+}
+
+.total-text
+{
+    line-height: 50px;
+    text-align: center;
+    font-size: 16px;
+}
+
+.total-num
+{
+    line-height: 50px;
+    font-size: 20px;
+    text-align: right;
+    padding-right: 10px;
+}
+
+.payment-method
+{
+    padding: 8px 0;
+    display: flex;
+    background-color: turquoise;
+}
+
+.chooseMethod{
+    margin-top: 10px;
+    padding: 5px;
+    background-color: white;
+}
+
+.chooseMethod--choose {
+    list-style-type: none;
+    display: flex;
+}
+
+.chooseMethod--method {
+    padding: 3px 10px;
+    margin:0 10px 0 5px;
+    list-style-type: none;
+    color: black;
+    border: solid var(--main--color) 1px;
+    border-radius: 5px;
+}
+.active--payment ,.chooseMethod--method:hover{
+    background-color: var(--main--color) !important;
+    color: white !important ;
+}
+
+.hide{
+    display: none !important;
+}
+
+.form__e-banking{
+    margin-top: 20px;
+    display: flex;
+    flex-direction: column;
+    margin: 10px 0px;
+    line-height: 30px;
+}
+.form {
+    width: 60%;
+    margin: auto;
+}
+.form__e-wallet{
+
+    margin-top: 20px;
+    display: flex;
+    flex-direction: column;
+    margin: 10px 0px;
+    line-height: 30px;
+}
+
+
+.price {
+    color: red;
+}
+
+input[type=text],select {
+    padding: 10px;
+    border-radius: 5px;
+}
+input[type=submit] {
+    margin-top: 10px;
+    padding: 10px;
+    background-color: var(--main--color);
+    color: white;
+    border-radius: 5px;
+}
+
+@media (min-width: 768px) 
+{
+    .product-img
+    {
+        display: block;
+    }
+}
+
