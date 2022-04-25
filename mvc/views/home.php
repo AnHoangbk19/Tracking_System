@@ -32,14 +32,14 @@ $home_url = getUrl().'/';
             <div class="leftcontainer">
                 <div class="menubox">
                     <div class="menutitle">
-                        <span>Navigation</span>
+                        <span>Điều khiển đèn giao thông</span>
                     </div>
                     <div class="listmenuchoose">
                         <div class="normalselection">
                             <div class="leftsideselection">
                                     <em class="ti-save"></em>
                                 <div class="menutext">
-                                    <span>Save</span>
+                                    <span>Điều khiển đèn tín hiệu</span>
                                 </div>
                             </div>
 
@@ -48,27 +48,26 @@ $home_url = getUrl().'/';
                             <div class="leftsideselection">
                                 <em class="ti-save"></em>
                                 <div class="menutext">
-                                    <span>Save</span>
+                                    <span>Điều khiển thời gian giao thông</span>
                                 </div>
                             </div>
-                            <div class="rightsideselection">
-                                <em class="ti-angle-right"></em>
-                            </div>
+
                         </div>
+                        
                         
                     </div>
                 </div>
 
                 <div class="menubox">
                     <div class="menutitle">
-                        <span>Navigation</span>
+                        <span>Điều khiển hệ thống</span>
                     </div>
                     <div class="listmenuchoose">
                         <div class="normalselection">
                             <div class="leftsideselection">
                                     <em class="ti-save"></em>
                                 <div class="menutext">
-                                    <span>Save</span>
+                                    <span>Gửi nhiệt độ cho người dùng</span>
                                 </div>
                             </div>
 
@@ -77,101 +76,25 @@ $home_url = getUrl().'/';
                             <div class="leftsideselection">
                                 <em class="ti-save"></em>
                                 <div class="menutext">
-                                    <span>Save</span>
+                                    <span>Gửi độ ẩm cho người dùng</span>
                                 </div>
                             </div>
-                            <div class="rightsideselection">
-                                <em class="ti-angle-right"></em>
-                            </div>
-                        </div>
-                        
-                    </div>
-                </div>
-
-                <div class="menubox">
-                    <div class="menutitle">
-                        <span>Navigation</span>
-                    </div>
-                    <div class="listmenuchoose">
-                        <div class="normalselection">
-                            <div class="leftsideselection">
-                                    <em class="ti-save"></em>
-                                <div class="menutext">
-                                    <span>Save</span>
-                                </div>
-                            </div>
-
+                            
                         </div>
                         <div class="dropdownselection">
                             <div class="leftsideselection">
                                 <em class="ti-save"></em>
                                 <div class="menutext">
-                                    <span>Save</span>
+                                    <span>Thông báo thời điểm có lượng xe cao nhất</span>
                                 </div>
                             </div>
-                            <div class="rightsideselection">
-                                <em class="ti-angle-right"></em>
-                            </div>
+                            
                         </div>
-                        
                     </div>
                 </div>
 
-                <div class="menubox">
-                    <div class="menutitle">
-                        <span>Navigation</span>
-                    </div>
-                    <div class="listmenuchoose">
-                        <div class="normalselection">
-                            <div class="leftsideselection">
-                                    <em class="ti-save"></em>
-                                <div class="menutext">
-                                    <span>Save</span>
-                                </div>
-                            </div>
 
-                        </div>
-                        <div class="normalselection">
-                            <div class="leftsideselection">
-                                    <em class="ti-save"></em>
-                                <div class="menutext">
-                                    <span>Save</span>
-                                </div>
-                            </div>
-
-                        </div>
-                        <div class="normalselection">
-                            <div class="leftsideselection">
-                                    <em class="ti-save"></em>
-                                <div class="menutext">
-                                    <span>Save</span>
-                                </div>
-                            </div>
-
-                        </div>
-                        <div class="normalselection">
-                            <div class="leftsideselection">
-                                    <em class="ti-save"></em>
-                                <div class="menutext">
-                                    <span>Save</span>
-                                </div>
-                            </div>
-
-                        </div>
-                        <div class="normalselection">
-                            <div class="leftsideselection">
-                                <em class="ti-save"></em>
-                                <div class="menutext">
-                                    <span>Save</span>
-                                </div>
-                            </div>
-                            <div class="rightsideselection">
-                                <em class="ti-angle-right"></em>
-                            </div>
-                        </div>
-                        
-                    </div>
-                </div>
+                
             </div>
         </div>
 
@@ -186,14 +109,12 @@ $home_url = getUrl().'/';
                         <div id="menubtn" class="menuicon" onclick="changestatus()">
                             <em class="ti-menu-alt"></em>
                         </div>
-                        
                         <div class="dropdownbtn">
-                            <span class="text">Create New</span>
-                            <em class="ti-angle-down"></em>
+                            <span class="text">Trang chủ</span>
                         </div>
-                        <div class="dropdownbtn">
-                            <span class="text">Create New</span>
-                            <em class="ti-angle-down"></em>
+                        <div class=" dropdownbtn">
+                            <span class="text">Ngã tư đường 3 tháng 2</span>
+                            <em class="ti-close" ></em>
                         </div>
                     </div>
                     <div class="rightnav">
@@ -204,21 +125,16 @@ $home_url = getUrl().'/';
             <div class="rightcontainer">
                 <div class="listreport">
                     <div class="infomation redcolor">
-                        <span>Ngày có lượng xe vượt ngưỡng cao nhất : 14/02/2022</span>
-                    </div>
-                    <div class="infomation redcolor">
-                        <span>Ngày có nhiệt độ cao nhất : 00/00/0000</span>
+                        <span>Thời điểm có lượng xe cao nhất: 14h25</span>
                     </div>
                     <div class="infomation greencolor">
-                        <span>Ngày ít xe vượt đèn nhất : 00/00/0000</span>
+                        <span>Thời điểm có nhiệt độ cao nhất : 12h00</span>
                     </div>
                     <div class="infomation bluecolor">
-                        <span>Ngày có lượng xe vượt ngưỡng cao nhất : 14/02/2022</span>
+                        <span>Thời điểm có độ ẩm cao nhất : 00h00</span>
                     </div>
                     
-                    <div class="infomation greencolor">
-                        <span>Ngày có lượng xe vượt ngưỡng cao nhất : 14/02/2022</span>
-                    </div>
+    
                 </div>
                 <div class="chart">
                     <canvas class="board-element" id="myChart" style="width:100%;max-width:400px; height: 300px"></canvas>

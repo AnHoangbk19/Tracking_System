@@ -21,7 +21,7 @@ var chart = new Chart("myChart", {
   options: {
     legend: {display: false},
     scales: {
-      yAxes: [{ticks: {min: 1, max:16}}],
+      yAxes: [{ticks: {min: 1, max:100}}],
     },
     title: {
       display: true,
